@@ -4,7 +4,6 @@ import "fmt"
 import "sync"
 
 func main(){
-	fmt.Println("hello world")
 	var count int
 	var lock sync.Mutex
 
