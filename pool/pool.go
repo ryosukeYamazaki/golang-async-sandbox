@@ -46,5 +46,5 @@ func Pool() {
 	}
 
 	wg.Wait()
-	fmt.Println("%d calculators were created.", numCalcsCreated)
+	fmt.Printf("%d calculators were created.\n", numCalcsCreated)
 }
