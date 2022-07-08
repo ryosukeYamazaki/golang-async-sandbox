@@ -1,4 +1,4 @@
-package main
+package mutex_rwmutex
 
 import (
 	"fmt"

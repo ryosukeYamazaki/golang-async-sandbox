@@ -14,6 +14,7 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 # RUN go get -x <your-dependency-or-tool>
 go install golang.org/x/tools/gopls@latest
 go install golang.org/x/tools/cmd/goimports@latest
+go install github.com/go-delve/delve/cmd/dlv@latest
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
